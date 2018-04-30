@@ -1,0 +1,144 @@
+@font-face {
+  font-family: 'Arvo', serif; }
+@font-face {
+  font-family: 'PT Sans', sans-serif; }
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: auto; }
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+body {
+  margin: 0;
+  padding: 0; }
+  body header {
+    border-bottom: 1px solid grey;
+    background-color: white;
+    padding: 9px 1px 20px 0; }
+    body header .logo {
+      font-size: 25px;
+      color: black;
+      font-family: "Arvo", serif;
+      font-weight: 700;
+      padding-top: 23px; }
+    body header .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-between; }
+    body header .right {
+      display: block;
+      font-size: 14px;
+      font-family: "PT Sans", sans-serif;
+      color: #008ebc; }
+      body header .right .link {
+        display: block;
+        padding-bottom: 28px;
+        text-align: right; }
+        body header .right .link .support {
+          margin-right: 28px; }
+      body header .right .row-2 {
+        display: block;
+        font-family: "PT Sans", sans-serif;
+        font-weight: 700;
+        font-size: 16px; }
+      body header .right a {
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        color: #008ebc;
+        font-weight: 700; }
+      body header .right span {
+        display: inline-block;
+        font-size: 20px; }
+  body section.block_1 {
+    background: #008ebc;
+    width: 100%;
+    padding: 64px 0 77px 0; }
+    body section.block_1 span {
+      display: inline-block;
+      color: white;
+      font-size: 33px;
+      font-family: "PT Sans", sans-serif;
+      font-weight: 700;
+      text-align: left;
+      padding-left: 45px; }
+    body section.block_1 a {
+      display: inline-block;
+      margin-left: 84px;
+      padding: 3px 30px 3px 30px;
+      background: #035574;
+      border-radius: 10px;
+      text-decoration: none;
+      text-align: center;
+      color: white;
+      font-family: "PT Sans", sans-serif;
+      font-weight: 700;
+      font-size: 45px; }
+  body section.block_2 {
+    background: white;
+    width: 100%;
+    font-family: "PT Sans", sans-serif; }
+    body section.block_2 .flex-container-2 {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-between; }
+      body section.block_2 .flex-container-2 .white {
+        color: #008ebc;
+        font-weight: 700;
+        width: 450px;
+        padding-top: 50px;
+        padding-right: 30px; }
+        body section.block_2 .flex-container-2 .white h2 {
+          font-size: 23px;
+          text-transform: uppercase;
+          margin: 0; }
+        body section.block_2 .flex-container-2 .white hr {
+          display: inline-block;
+          height: 4px;
+          width: 226px;
+          background: #008ebc;
+          text-align: left;
+          border: none; }
+        body section.block_2 .flex-container-2 .white h3 {
+          font-size: 16px; }
+        body section.block_2 .flex-container-2 .white span {
+          font-size: 14px;
+          font-weight: 400;
+          text-align: left; }
+      body section.block_2 .flex-container-2 .green {
+        width: 400px;
+        background: #259786;
+        padding: 50px 50px 60px 30px; }
+        body section.block_2 .flex-container-2 .green span {
+          display: block;
+          color: white;
+          font-size: 35px;
+          font-weight: 700;
+          text-align: center;
+          text-transform: uppercase;
+          margin-bottom: 37px; }
+        body section.block_2 .flex-container-2 .green img {
+          margin-right: -30px; }
+  body footer {
+    background: #008ebc;
+    width: 100%;
+    padding: 48px 0 43px 0;
+    color: white;
+    font-family: "PT Sans", sans-serif;
+    font-size: 12px; }
+    body footer .left {
+      display: block;
+      text-align: left; }
+    body footer .right-2 {
+      display: block;
+      text-align: right; }
+
+/*# sourceMappingURL=style.css.map */
